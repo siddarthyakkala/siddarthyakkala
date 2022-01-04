@@ -1,0 +1,78 @@
+#include <iostream>
+#include<algorithm>
+#include<vector>
+#include <queue>
+#include <bits/stdc++.h>
+#include<cmath>
+#define ll long long
+#define ull unsigned long long int
+#define pb push_back
+#define mp make_pair
+#define fi first
+#define se second
+#define vi vector<int>
+#define vl vector<long long>
+#define p(x) printf("%d\n", x)
+#define pl(x) printf("%lld\n", x)
+#define s(x) scanf("%d", &x)
+#define sl(x) scanf("%lld", &x)
+#define sf(x) scanf("%lf", &x)
+#define bitcount __builtin_popcountll
+#define INF 1e18+9
+#define endl '\n'
+#define FIO ios_base::sync_with_stdio(false)
+using namespace std;
+#define M 1000000007
+#define MAX 1000001
+#define ar array
+#define sza(x) ((int)x.size())
+#define all(a) (a).begin(), (a).end()
+
+void in_itcode() {
+#ifndef ONLINE_JUDGE
+
+freopen("input.txt", "r", stdin);
+
+freopen("output.txt", "w", stdout);
+
+#endif // ONLINE_JUDGE
+}
+
+
+
+
+int main()
+{
+    in_itcode();
+    int tc;
+    cin>>tc;
+    while(tc--)
+    {
+       vector<ll> l(3);
+       for(int i=0;i<3;i++)
+       {
+        cin>>l[i];
+       }
+       sort(l.begin(),l.end());
+
+       int highest=l[2];
+       if(l[0]+l[1]==highest)
+       {
+        cout<<"YES"<<endl;
+       }
+       else if(l[1]==l[2] && l[0]%2==0)
+       {
+        cout<<"YES"<<endl;
+       }
+        else if(l[0]==l[1] && l[2]%2==0)
+       {
+        cout<<"YES"<<endl;
+       }
+       else
+       {
+        cout<<"NO"<<endl;
+       }
+    }
+
+
+}
