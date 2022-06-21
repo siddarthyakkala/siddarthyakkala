@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @siddarthyakkala
-- 👀 I’m interested in Web development,Android development,Data structures and algorithms
-- 🌱 I’m currently learning DAS,React js
-- 💞️ I’m looking to collaborate on Web development projects
+- 👀 I’m interested in Web development,Data structures and algorithms
+- 🌱 I’m currently learning DSA,React js
 - 📫 How to reach me siddarthyakkala@gmail.com
 
 <!---
